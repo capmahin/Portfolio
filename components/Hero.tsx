@@ -1,3 +1,4 @@
+import MagicButton from './ui/MagicButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 
@@ -38,6 +39,10 @@ const Hero = () => {
            Hi, I&apos;m Mahin, a Next.js Developer based 
            in Bangladesh.
         </p>
+
+        <a href="#about">
+          <MagicButton/>
+        </a>
       </div>
     </div>
     </div>
