@@ -16,7 +16,9 @@ const MagicButton = ({
    cursor-pointer items-center justify-center rounded-lg
     bg-slate-950 px-7  text-sm font-medium 
   text-white backdrop-blur-3xl ${otherClasses}`}>
+    {position === 'left' && icon}
    {title}
+   {position === 'right' && icon}
   </span>
 </button>
   )
