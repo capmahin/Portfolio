@@ -1,3 +1,4 @@
+import { gridItems } from '@/data'
 import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
 
 const Grid = () => {
@@ -5,7 +6,7 @@ const Grid = () => {
     <section id='about'>
      <BentoGrid>
         {
-          [{title:'Title1', description:'Desc1', id:1}].map((item)=>(
+          gridItems.map((item)=>(
             <BentoGridItem
             id={item.id}
             key={item.id}
