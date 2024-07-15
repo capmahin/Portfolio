@@ -10,7 +10,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto ",
         className
       )}
     >
@@ -53,8 +53,25 @@ export const BentoGridItem = ({
       }}
     >
 
-      <div className={`${id=== 6}`}>
-
+      <div className={`${id=== 6} && 'flex justify-center h-full`}>
+      <div className="w-full h-full absolute">
+          {img && (
+            <img
+              src={img}
+              alt={img}
+              className={cn(imgClassName, "object-cover object-center ")}
+            />
+          )}
+        </div>
+        <div className={`absolute right-0 -bottom-5 ${id ===5 && 'w-full opacity-80'}`}>
+           {
+            spareImg && (
+              <img
+              
+              />
+            )
+           }
+        </div>
       </div>
     
       <div className="group-hover/bento:translate-x-2 transition duration-200">
