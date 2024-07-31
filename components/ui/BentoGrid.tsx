@@ -69,7 +69,7 @@ export const BentoGridItem = ({
       }}
     >
 
-      <div className={`${id=== 6} && 'flex justify-center h-full`}>
+      <div className={`${id=== 6 && 'flex justify-center'} h-full`}>
       <div className="w-full h-full absolute">
           {img && (
             <img
