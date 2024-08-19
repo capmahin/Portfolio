@@ -31,6 +31,12 @@ const RecentProjects = () => {
               <p className='lg:text-xl lg:font-normal font-light text-sm line-clamp-2'>
                 {des}
               </p>
+
+              <div className='flex items-center justify-between mt-7 md-3'>
+                <div className='flex items-center'>
+
+                </div>
+              </div>
              </PinContainer>
             </div>
           ))
