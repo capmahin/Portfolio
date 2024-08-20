@@ -92,18 +92,21 @@ export const InfiniteMovingCards = ({
               background: 'rgb(2,0,36)',
               backgroundColor: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,59,68,1) 26%, rgba(93,108,111,1)100%)'
             }}
-            key={item.name}
+            key={idx}
           >
             <blockquote>
               <div
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
+              <span className=" relative z-20 text-lg leading-[1.6] text-white font-normal">
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
+                  <div>
+                    
+                  </div>
                   <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
                     {item.name}
                   </span>
