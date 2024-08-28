@@ -1,4 +1,6 @@
 import React from 'react'
+import MagicButton from './ui/MagicButton'
+import { FaLocationArrow } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
@@ -17,6 +19,13 @@ const Footer = () => {
          <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me today and lets discuss
           how I can help you achieve your goals.
          </p>
+         <a href="mailto:mahinulhuque1996@gmail.com">
+            <MagicButton
+            title="Let's get in touch"
+            icon={<FaLocationArrow/>}
+            position='right'
+            />
+         </a>
       </div>
     </footer>
   )
