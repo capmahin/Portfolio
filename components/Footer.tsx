@@ -9,6 +9,12 @@ const Footer = () => {
         className='w-full h-full opacity-50'
         />
       </div>
+
+      <div className='flex flex-col items-center'>
+         <h1>
+          Ready to take <span>your</span>digital presence to the next level?
+         </h1>
+      </div>
     </footer>
   )
 }
