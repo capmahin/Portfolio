@@ -16,7 +16,9 @@ const Approach =()=> {
         title="Planning & Strategy" 
         icon={<AceternityIcon order="Phase 1"/>
         }
-        description="The first step in testing a new treatment in humans. A phase I clinical trial tests the safety, side effects, best dose, and timing of a new treatment. It may also test the best way to give a new treatment (for example, by mouth, infusion into a vein, or injection) and how the treatment affects the body."
+        description="We'll collaborate to map out your website's goals, target audience, 
+          and key functionalities. We'll discuss things like site structure, 
+          navigation, and content requirements."
         
         >
           <CanvasRevealEffect
@@ -24,8 +26,10 @@ const Approach =()=> {
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Development & Launch" icon={<AceternityIcon order="Phase 2"/>}
-        description="The first step in testing a new treatment in humans. A phase I clinical trial tests the safety, side effects, best dose, and timing of a new treatment. It may also test the best way to give a new treatment (for example, by mouth, infusion into a vein, or injection) and how the treatment affects the body."
+        <Card title="Development & Progress Update" icon={<AceternityIcon order="Phase 2"/>}
+        description="Once we agree on the plan, I cue my lofi playlist and dive into
+          coding. From initial sketches to polished code, I keep you updated
+          every step of the way."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -38,8 +42,10 @@ const Approach =()=> {
           />
           
         </Card>
-        <Card title="Munni is Aditi" icon={<AceternityIcon order="Phase 3" />}
-        description="The first step in testing a new treatment in humans. A phase I clinical trial tests the safety, side effects, best dose, and timing of a new treatment. It may also test the best way to give a new treatment (for example, by mouth, infusion into a vein, or injection) and how the treatment affects the body."
+        <Card title="Development & Launch" icon={<AceternityIcon order="Phase 3" />}
+        description="This is where the magic happens! Based on the approved design, 
+          I'll translate everything into functional code, building your website
+          from the ground up."
         >
           <CanvasRevealEffect
             animationSpeed={3}
