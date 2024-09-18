@@ -96,11 +96,11 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Amazone is a e-commerce website",
+      title: "iPhone- Its a Shoping websiteS",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/capmahin/Project-amazone",
+      link: "https://github.com/capmahin/Apple_site",
     },
   ];
   
