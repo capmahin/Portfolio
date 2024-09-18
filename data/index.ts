@@ -99,7 +99,7 @@ export const navItems = [
       title: "Apple-Store- Its a Shoping websiteS",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/capmahin/Apple_site",
     },
   ];
