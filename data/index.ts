@@ -83,7 +83,7 @@ export const navItems = [
       title: "evently-de - E-commerce site for ticket selling",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg",  "/mongodb.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/nodejs.svg", "/ts.svg",  "/mongodb.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/capmahin/evently-dep",
     },
     {
@@ -91,15 +91,15 @@ export const navItems = [
       title: "language-fixer - Language Application",
       des: "Practice speaking, reading, listening, and writing to build your vocabulary and grammar app with MERN features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/mongodb.svg", "/redux.svg","/firebase.svg","/ejs.svg"],
+      iconLists: ["/re.svg","/nodejs.svg", "/tail.svg", "/js.svg", "/mongodb.svg", "/redux.svg","/firebase.svg","/ejs.svg"],
       link: "https://github.com/capmahin/language-fixerp",
     },
     {
       id: 4,
-      title: "Apple-Store- Its a Shoping websiteS",
+      title: "Apple-Store- Its a Shopping websiteS",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/vitejs.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/capmahin/Apple_site",
     },
   ];
