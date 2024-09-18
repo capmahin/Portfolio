@@ -73,9 +73,9 @@ export const navItems = [
     {
       id: 1,
       title: "BatTube for  free video sharing to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      des: "a video sharing service where users can watch, like, share, comment and upload their own videos.",
       img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/material.svg", "/CSS.svg"],
       link: "https://github.com/capmahin/BatTube",
     },
     {
@@ -83,7 +83,7 @@ export const navItems = [
       title: "evently-de - E-commerce site for ticket selling",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg",  "/mongodb.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/capmahin/evently-dep",
     },
     {
@@ -91,7 +91,7 @@ export const navItems = [
       title: "language-fixer - Language Application",
       des: "Practice speaking, reading, listening, and writing to build your vocabulary and grammar app with MERN features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/mongodb.svg", "/redux.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/mongodb.svg", "/redux.svg","/firebase.svg","/ejs.svg"],
       link: "https://github.com/capmahin/language-fixerp",
     },
     {
