@@ -91,7 +91,7 @@ export const navItems = [
       title: "language-fixer - Language Application",
       des: "Practice speaking, reading, listening, and writing to build your vocabulary and grammar app with MERN features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/mongodb.svg", "/redux.svg"],
       link: "https://github.com/capmahin/language-fixerp",
     },
     {
@@ -99,7 +99,7 @@ export const navItems = [
       title: "Apple-Store- Its a Shoping websiteS",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/capmahin/Apple_site",
     },
   ];
